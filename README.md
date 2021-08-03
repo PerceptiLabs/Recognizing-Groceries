@@ -14,14 +14,14 @@ The data can be used to build and train an ML model that classifies various groc
 
 This repo contains the following structure:
 
-- **/data/frieburg_log.csv**: CSV file that maps grocery classification labels to the training images.
+- **/data/frieburg_log.csv**: CSV file that maps grocery classification numbers to the training images.
 - **data**: contains the training images, partitioned into sub directories for the respective classifications. The following are a few example images:
 
 <p align="center">
   <img src="./frb_sample.png">
 </p>
 
-The table below shows a partial example of the data stored in **frieburg_log.csv** that is used to map classification labels to training images:
+The table below shows a partial example of the data stored in **frieburg_log.csv** that is used to map classification numbers to training images:
 
 | **image_path**  | **target** |
 | ----------  | ---------- |
